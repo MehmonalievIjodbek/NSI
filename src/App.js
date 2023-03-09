@@ -1,23 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import HomeSelect from "./Component/Home/Home-select";
+import HomePage from "./Component/Home/HomePage";
+import "./style/style.scss";
+import "./style/style-mobile.scss";
+
+const banner = {
+  src: "./img/home.jpg",
+  text: "OIL, GAS & INDUSTRIAL",
+};
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <HomePage banner={banner} />
+      <HomeSelect />
     </div>
   );
 }
