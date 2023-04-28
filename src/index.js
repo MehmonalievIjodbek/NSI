@@ -16,6 +16,7 @@ import TankFarms from "./Component/TankFarms/TankFarms";
 import UnderGround from "./Component/UnderGround/UnderGround";
 import Upstream from "./Component/Upstream/Upstream";
 import Contact from "./Component/Contact/Contact";
+import OurProject from "./Component/OurProject/OurProject";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -37,6 +38,7 @@ root.render(
           <Route path="/underground-storage/" element={<UnderGround />} />
           <Route path="/upstream/" element={<Upstream />} />
           <Route path="/contact/" element={<Contact />} />
+          <Route path="/our-project/" element={<OurProject />} />
         </Routes>
         <GoToTop />
       </Layout>

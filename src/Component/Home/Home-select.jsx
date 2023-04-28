@@ -29,6 +29,11 @@ const dataSelect = [
     text: "Upstream",
     to: "/upstream/",
   },
+  {
+    id: 6,
+    text: "Chemicals & Petrochemicals",
+    to: "/chemicals-petrochemicals/",
+  },
 ];
 
 const selectText = {
@@ -42,7 +47,7 @@ const selectText = {
 const HomeSelect = () => {
   return (
     <div className="container">
-      <HomeButton />
+      {/* <HomeButton /> */}
       <div className="homeSelect">
         <div className="homeSelect-left">
           <h2>{selectText.text}</h2>

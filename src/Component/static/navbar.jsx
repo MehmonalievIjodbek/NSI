@@ -1,8 +1,8 @@
 export const navbar = [
   {
     id: 1,
-    text: "Chemicals & Petrochemicals",
-    to: "/chemicals-petrochemicals/",
+    text: "Our Project",
+    to: "/our-project/",
   },
   {
     id: 2,

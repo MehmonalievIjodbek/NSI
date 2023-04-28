@@ -68,6 +68,21 @@
       }
     }
   }
+  .contact {
+    &-card {
+      display: grid;
+      grid-template-columns: repeat(1, minmax(0, 1fr)) !important;
+      gap: 30px;
+    }
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .chemicals__left-cards {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr)) !important;
+    gap: 20px;
+  }
 }
 @media screen and (max-width: 500px) {
   .header {
